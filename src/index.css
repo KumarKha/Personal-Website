@@ -1,7 +1,7 @@
 /* Theme Variables */
 :root {
-  --bg-color: #f9fafb;
-  --primary-color: #2563eb;
+  --bg-color: #fffffa;
+  --primary-color: #a393bf;
   --secondary-color: #f97316;
   --border-color: #e5e7eb;
   --text-primary: #111827;
@@ -11,8 +11,8 @@
 }
 
 [data-theme="dark"] {
-  --bg-color: #111827;
-  --primary-color: #60a5fa;
+  --bg-color: #0c0910;
+  --primary-color: #453750;
   --secondary-color: #fb923c;
   --border-color: #1f2937;
   --text-primary: #f9fafb;

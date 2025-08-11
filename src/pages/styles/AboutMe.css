@@ -1,0 +1,11 @@
+.aboutme-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 100vh;
+  /* padding-left: 5%; */
+  padding: 0 10%;
+
+  background: var(--bg-color);
+  flex-direction: column;
+}

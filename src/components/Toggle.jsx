@@ -1,5 +1,5 @@
 import React from "react";
-import { useTheme } from "../ThemeUtils";
+import { useTheme } from "../ThemeContext";
 
 import "./styles/Toggle.css";
 

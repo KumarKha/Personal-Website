@@ -1,5 +1,8 @@
 import React from "react";
+import ResumeIcon from "../assets/icons/resume.svg?react";
+import EmailIcon from "../assets/icons/email.svg?react";
 import "./styles/Home.css";
+
 import TypeWriterEffect from "../components/TypeWriterEffect";
 
 export const Home = () => {
@@ -20,6 +23,18 @@ export const Home = () => {
             speed={50}
             pauseTime={1000}
           />
+        </div>
+        <div className="button-container">
+          <button id="resume-button">
+            <ResumeIcon className="home-icon" />
+            Show Resume
+          </button>
+          <button id="email-button">
+            <a href="mailto:kumarkhalika@gmail.com">
+              <EmailIcon className="home-icon" />
+              Email Me
+            </a>
+          </button>
         </div>
       </div>
     </>

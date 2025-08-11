@@ -40,7 +40,7 @@ const TypeWriterEffect = ({ sentences = [], speed = 50, pauseTime = 1000 }) => {
         // // Deleting is faster unless currently on last sentence
         // sentenceIndex % sentences.length === sentences.length - 1
         //   ? speed * 5
-        //   :
+        //   : speed / 2
       );
     } else if (isDeleting && index === 0) {
       timeout = setTimeout(() => {
