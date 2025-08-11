@@ -1,0 +1,21 @@
+.home-containter {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 100vh;
+  padding-left: 5%;
+  background: var(--bg-color);
+  flex-direction: column;
+}
+.home-text {
+  font-size: clamp(1rem, 5vw, 6rem);
+}
+.home-text span {
+  color: var(--secondary-color);
+}
+.typewriter-wrapper {
+  margin-top: 0.5rem;
+  margin-left: 100px;
+  font-size: clamp(1rem, 2.5vw, 3rem);
+  color: var(--text-secondary);
+}
