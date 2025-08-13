@@ -4,6 +4,7 @@ import EmailIcon from "../assets/icons/email.svg?react";
 import "./styles/Home.css";
 
 import TypeWriterEffect from "../components/TypeWriterEffect";
+import { ResumePop } from "../components/ResumePop";
 
 export const Home = () => {
   return (
@@ -25,10 +26,12 @@ export const Home = () => {
           />
         </div>
         <div className="button-container">
-          <button id="resume-button">
-            <ResumeIcon className="home-icon" />
+          {/* <button id="resume-button">
+            
             Show Resume
-          </button>
+          </button> */}
+          {/* <ResumeIcon className="home-icon" /> */}
+          <ResumePop></ResumePop>
           <button id="email-button">
             <a href="mailto:kumarkhalika@gmail.com">
               <EmailIcon className="home-icon" />

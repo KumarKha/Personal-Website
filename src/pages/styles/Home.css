@@ -32,10 +32,11 @@
   align-items: center;
   gap: 0.25rem;
   padding: 10px;
-  font-size: clamp(0.85rem, 2vw, 2.5rem);
+  font-size: clamp(0.85rem, 1.5vw, 2.5rem);
   font-weight: 500;
   color: var(--text-secondary);
   background: var(--bg-color);
+  border: 2px solid black;
   border-radius: 5px;
   transition: all 500ms cubic-bezier(0.23, 1, 0.32, 1);
   will-change: transform;
@@ -55,8 +56,8 @@
 }
 
 .home-icon {
-  width: clamp(0.85rem, 2vw, 2.5rem);
-  height: clamp(0.85rem, 2vw, 2.5rem);
+  width: clamp(0.85rem, 1.5vw, 2.5rem);
+  height: clamp(0.85rem, 1.5vw, 2.5rem);
   stroke: var(--toggle-svg);
   fill: aquamarine;
 }

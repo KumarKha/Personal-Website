@@ -1,12 +1,11 @@
 import React from "react";
 import "./styles/AboutMe.css";
+import { ResumePop } from "../components/ResumePop";
 
 export const AboutMe = () => {
   return (
     <>
-      <div className="aboutme-container">
-        <iframe src="/Resume.pdf" frameborder="0"></iframe>
-      </div>
+      <div className="aboutme-container"></div>
     </>
   );
 };
